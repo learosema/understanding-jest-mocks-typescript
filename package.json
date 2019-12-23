@@ -4,13 +4,13 @@
   "description": "Totally confused about jest.mock() and this is why I created this test project",
   "main": "index.js",
   "dependencies": {
-    "ts-jest": "^24.2.0"
+    "@types/node-fetch": "^2.5.4",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.24",
-    "@types/node-fetch": "^2.5.4",
     "jest": "^24.9.0",
-    "node-fetch": "^2.6.0",
+    "ts-jest": "^24.2.0",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.4"
   },
@@ -23,6 +23,6 @@
     "mock",
     "confused"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Lea Rosema",
+  "license": "MIT"
 }
